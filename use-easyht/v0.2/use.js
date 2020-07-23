@@ -7,7 +7,6 @@ console.log('EasyHT-JS 正在加载中')
 console.log('本页部分美化效果来自EasyHT！')
 console.log('EasyHT https://easyht.js.org/')
 console.log('Powered by YellowFace 2018')
-console.log('YellowFace's GitHub:https://github.con/yellowface233')
 
 //代码框收缩 
 function easyht0001(){
@@ -16,3 +15,6 @@ document.getElementById('easyhtcode').style.display='none'
 function easyht0002(){
 document.getElementById('easyhtcode').style.display='block'
 }
+
+//加载完毕
+console.log('EasyHT JS加载完毕，感谢使用！')
