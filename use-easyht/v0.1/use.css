@@ -18,6 +18,20 @@
 code{
     background-color:pink;
 }
+code {
+    padding: 3px;
+    margin: 0 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+code {
+    color: #222;
+    background-color: #fff;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 0.875em;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
 
 /*
  * Pre标签美化
@@ -26,6 +40,15 @@ code{
 pre{
     background-color:lightgrey;
     color:white;
+}
+pre{
+    color: #222;
+    background-color: #fff;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 0.875em;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 }
 
 /*
