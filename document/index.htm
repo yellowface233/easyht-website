@@ -82,12 +82,53 @@
         <p>介绍：文章有警告等小提示却不知道怎么去写？这段代码可以帮到你！</p>
         <p>支持标签：成功、警告、错误、信息，alertId分别是：cg、jg、cw、xi</p>
         <p>使用方法：在需要标记的地方的文本前面加入&lt;div class="easyht tip alertId"&gt;，结尾加上&lt;/div&gt;</p>
-        <p>演示：xxxxx<div class="easyht tip jg">请勿XXXXXXXXXX</div>xxxxxxxxx</p>
+        <p>演示：xxxxx
+        <div class="easyht tip jg">
+          请勿XXXXXXXXXX
+        </div>
+        xxxxxxxxx
+        </p>
+        <br>
+        <h1>代码框</h1>
+        <p>介绍：开头的Code标签还是不好看？来看看这个支持收缩的</p>
+        <p><font color=red>此段代码依靠JavaScript</font></p>
+        <p>支持颜色：黑色</p>
+        <p>使用方法：（代码较长，请看下方）</p>
+        <div id="linkyy">
+          &lt;div class="easyht codei black head"&gt;
+          &nbsp;
+          &lt;span onClick="easyht0001()"&gt;收起&lt;/span&gt;
+          &nbsp;
+          &lt;span onClick="easyht0002()"&gt;展开&lt;/span&gt;
+          &nbsp;&nbsp;
+          &lt;span class="easyht code lang"&gt;Code&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div id="easyhtcode"&gt;
+          &lt;div class="easyht codei black body"&gt;
+          填写代码的部分，换行仍需要&lt;p&gt;&lt;/p&gt;或&lt;br /&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+      </div>
+      <p><font color=red>这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</font></p>
+      <p>演示：</p>
+      <div class="easyht codei black head">
+        &nbsp;
+        <span onClick="easyht0001()">收起</span>
+        &nbsp;
+        <span onClick="easyht0002()">展开</span>
+        &nbsp;&nbsp;
+        <span class="easyht code lang">Code</span>
+      </div>
+      <div id="easyhtcode">
+        <div class="easyht codei black body">
+          填写代码的部分，换行仍需要&lt;p&gt;&lt;/p&gt;或&lt;br /&gt;
+        </div>
+      </div>
       </section>
     </div>
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">By YF</p>
+        <p class="copyright">Powered by YF 2018-2020</p>
       </footer>
     </div>
   </body>
