@@ -54,19 +54,19 @@ xxxxxxxxx
 支持颜色：黑色
 使用方法：（看下方）
 ```HTML
-&lt;div class="easyht codei black head"&gt;
-&#38;nbsp;
-&lt;span onClick="easyht0001()"&gt;收起&lt;/span&gt;
-&#38;nbsp;
-&lt;span onClick="easyht0002()"&gt;展开&lt;/span&gt;
-&#38;nbsp;&#38;nbsp;
-&lt;span class="easyht code lang"&gt;Code&lt;/span&gt;
-&lt;/div&gt;
-&lt;div id="easyhtcode"&gt;
-&lt;div class="easyht codei black body"&gt;
-填写代码的部分，换行仍需要&lt;p&gt;&lt;/p&gt;或&lt;br /&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="easyht codei black head">
+&nbsp;
+<span onClick="easyht0001()">收起</span>
+&nbsp;
+<span onClick="easyht0002()">展开</span>
+&nbsp;&nbsp;
+<span class="easyht code lang">Code</span>
+</div>
+<div id="easyhtcode">
+<div class="easyht codei black body">
+填写代码的部分，换行仍需要<p></p>或<br />
+</div>
+</div>
 ```
 <font color=red>这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</font>
 演示：
