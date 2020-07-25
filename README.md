@@ -1,4 +1,6 @@
 # 快速开始
+<script src="https://easyht.js.org/use-easyht/v0.2/use.js"></script>
+<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.2/use.css">
 请注意：仅提供最新版引用方式，若需其他版本，请自行修改链接中的版本号。
 CSS:
 ```Code
