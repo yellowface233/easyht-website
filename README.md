@@ -1,6 +1,4 @@
 # 快速开始
-<script src="https://easyht.js.org/use-easyht/v0.2/use.js"></script>
-<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.2/use.css">
 请注意：仅提供最新版引用方式，若需其他版本，请自行修改链接中的版本号。
 CSS:
 ```Code
@@ -73,3 +71,5 @@ xxxxxxxxx
 <font color=red>这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</font>
 演示：
 <font color=red>Sorry,由于部分原因，此部分演示删除（3:不准确）</font>
+<script src="https://easyht.js.org/use-easyht/v0.2/use.js"></script>
+<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.2/use.css">
