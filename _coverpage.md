@@ -1,5 +1,5 @@
 
-# EasyHT <small>0.2</small>
+# EasyHT <small>0.3</small>
 
 > 一个能对你网页增加更多功能的东西。
 
@@ -9,4 +9,4 @@
 
 [GitHub](https://github.com/yellowface233/EasyHT)
 [提交Bug](https://github.com/yellowface233/Easyht-Bug)
-[快速开始](#/快速开始)
+[快速开始](/#/?id=快速开始)
