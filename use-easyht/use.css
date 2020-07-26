@@ -1,0 +1,202 @@
+/*
+ * EasyHT Css
+ * version 0.3
+ * 美化一些HTML标签，并加入字体
+ * Website: https://easyht.js.org/
+ * 最后，感谢您的使用呢！
+*/
+
+/*
+ * Code标签美化
+ * 使用方法：HTML中使用<code>标签
+*/
+code{
+    background-color:pink;
+}
+code {
+    padding: 3px;
+    margin: 0 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+code {
+    color: #222;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 0.875em;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/*
+ * Pre标签美化
+ * 使用方法：HTML中使用<pre>标签
+*/
+pre{
+    background-color:lightgrey;
+    color:white;
+}
+pre{
+    color: #222;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 0.875em;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/*
+ * 荧光笔（文本标记）
+ * 介绍：文字里有重点？没关系！此段CSS可以将一部分文本做各种颜色的标记
+ * 支持颜色：黄色、橙色、绿色、蓝色、红色、黑色，COLORID分别为ylw、ore、grn、ble、red、blk
+ * 使用方法：在需要标记的地方的文本前面加入<span class="easyht ygb COLORID">，结尾加上</span>（COLORID在上面可以看到）
+ * 演示：文字文字文字文字<span class="easyht ygb ylw">重点</span>文字文字文字，这样重点两字就拥有了黄色的底色
+ * 本段代码适用于一些小白。
+*/
+.easyht.ygb.ylw{
+    background-color:yellow;
+}
+.easyht.ygb.ore{
+    background-color:orange;
+}
+.easyht.ygb.grn{
+    background-color:lightgreen;
+}
+.easyht.ygb.ble{
+    background-color:lightblue;
+}
+.easyht.ygb.red{
+    background-color:red;
+    color:white;
+}
+.easyht.ygb.blk{
+    background-color:black;
+    color:white;
+}
+
+/*
+ * 提示标签
+ * 介绍：文章有警告等小提示却不知道怎么去写？这段代码可以帮到你！
+ * 支持标签：成功、警告、错误、信息，alertId分别是：cg、jg、cw、xi
+ * 使用方法：在需要标记的地方的文本前面加入<div class="easyht tip alertId">，结尾加上</div> 
+ * 演示：xxxxx<div class="easyht tip jg">请勿XXXXXXXXXX</div>xxxxxxxxx
+ * 本段代码适用于一些小白。
+*/
+.easyht.tip{
+    padding:10px;
+    margin:7px;
+}
+.easyht.tip.cg{
+    background-color:lightgreen;
+}
+.easyht.tip.jg{
+    background-color:orange;
+}
+.easyht.tip.cw{
+    background-color:red;
+    color:white;
+}
+.easyht.top.xi{
+    background-color:lightblue;
+}
+
+/*
+ * 代码框
+ * 支持颜色：Black
+ * 详细请进入文档查看
+ * 此段代码依靠JavaScript
+*/
+/* CodeTheme_Black */
+.easyht.codei.black.head{
+    color:white;
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+.easyht.codei.black{
+    margin:0;
+    padding:0;
+}
+.easyht.codei.black.body{
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:0;
+}
+/*
+ * 弹窗
+ * 看文档
+*/
+#messageForg{
+z-index:999;
+position:fixed;
+display:none;
+align-items:center;
+top:0px;
+left:0px;
+bottom:0px;
+right:0px;
+margin:auto;
+background:rgba(0,0,0,0.8);
+box-sizing:border-box;
+}
+.message-box{
+position:relative;
+margin:250px auto;
+width:382px;
+height:261px;
+color:#888888;
+border-radius:9px;
+display:flex;
+background-color:#ffffff;
+box-sizing:border-box;
+}
+#message-title{
+position:absolute;
+width:100%;
+height:50px;
+top:50px;
+text-align:center;
+height:24px;
+font-size:18px;
+font-weight:bold;
+color:#212121;
+line-height:24px;
+letter-spacing:1px;
+box-sizing:border-box;
+}
+#message-body{
+position:relative;
+display:flex;
+flex-direction:column;
+justify-items:center;
+top:80px;
+height:170px;
+width:260px;
+margin:0 auto;
+text-align:center;
+box-sizing:border-box;
+}
+.confirm-button{
+margin:auto;
+width:90px;
+height:38px;
+background:rgba(94,185,255,1);
+border-radius:19px;
+font-size:18px;
+color:#ffffff;
+line-height:38px;
+letter-spacing:1px;
+text-align:center;
+box-sizing:border-box;
+}
+#message-body span{
+color:#ff7853;
+font-size:18px;
+height:20px;
+flex:1;
+overflow:auto;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+}
