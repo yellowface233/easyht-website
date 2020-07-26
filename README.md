@@ -120,7 +120,7 @@ document.getElementById("easyhtMsgBody").innerHTML="内容<br>第二行";
 </script>
 ```
 
-换行使用&lt;bt /&gt;，标题和内容都请自行修改！
+换行使用&lt;br /&gt;，标题和内容都请自行修改！
 
 <script src="https://easyht.js.org/use-easyht/v0.3/use.js"></script>
 <link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.3/use.css">
