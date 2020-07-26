@@ -3,16 +3,16 @@
 CSS:
 ```Code
 文件地址：
-https://easyht.js.org/use-easyht/v0.2/use.css
+https://easyht.js.org/use-easyht/v0.3/use.css
 引用代码（HTML）：
-<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.2/use.css">
+<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.3/use.css">
 ```
 JS:
 ```Code
 文件地址：
-https://easyht.js.org/use-easyht/v0.2/use.js
+https://easyht.js.org/use-easyht/v0.3/use.js
 引用代码（HTML）：
-<script src="https://easyht.js.org/use-easyht/v0.2/use.js"></script>
+<script src="https://easyht.js.org/use-easyht/v0.3/use.js"></script>
 ```
 
 # Code标签美化
@@ -71,5 +71,43 @@ xxxxxxxxx
 <p class="tip">这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</p>
 演示：
 <p class="tip">Sorry,由于部分原因，此部分演示删除（3:不准确）</p>
-<script src="https://easyht.js.org/use-easyht/v0.2/use.js"></script>
-<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.2/use.css">
+# 提示框
+演示：
+<button onClick="easyhtShowMsg()">显示</button>
+
+<div id="messageForg" class="fog-wrapper">
+<div class="message-box">
+<div id="message-title"></div>
+<div id="message-body"><div id="easyhtMsgBody"></div>
+<div class="confirm-button"><div id="MsgOKB" onclick="easyhtMsgClose()"></div></div>
+</div></div></div>
+使用方法：
+先将下列代码放入Body标签内的任意位置：
+```HTML
+<div id="messageForg" class="fog-wrapper">
+<div class="message-box">
+<div id="message-title"></div>
+<div id="message-body"><div id="easyhtMsgBody"></div>
+<div class="confirm-button"><div id="MsgOKB" onclick="easyhtMsgClose()"></div></div>
+</div></div></div>
+```
+接着在需要被点击出现窗口得地方的&gt;前加入下面代码
+```Code
+onClick="easyhtShowMsg()"
+```
+若要在显示页面的时候直接出现，请将&lt;body&gt;换成
+```HTML
+<body onload="easyhtShowMsg()">
+```
+必读-如何设定标题和内容
+在任意地方加载下面代码
+```HTML+JS
+<script>
+document.getElementById("message-title").innerHTML="标题";
+document.getElementById("easyhtMsgBody").innerHTML="内容<br>第二行";
+</script>
+```
+换行使用&lt;bt /&gt;，标题和内容都请自行修改！
+
+<script src="https://easyht.js.org/use-easyht/v0.3/use.js"></script>
+<link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.3/use.css">
