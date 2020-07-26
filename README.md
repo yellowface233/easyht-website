@@ -82,8 +82,12 @@ xxxxxxxxx
 <div id="message-body"><div id="easyhtMsgBody"></div>
 <div class="confirm-button"><div id="MsgOKB" onclick="easyhtMsgClose()"></div></div>
 </div></div></div>
+
+
 使用方法：
+
 先将下列代码放入Body标签内的任意位置：
+
 ```HTML
 <div id="messageForg" class="fog-wrapper">
 <div class="message-box">
@@ -92,22 +96,30 @@ xxxxxxxxx
 <div class="confirm-button"><div id="MsgOKB" onclick="easyhtMsgClose()"></div></div>
 </div></div></div>
 ```
+
 接着在需要被点击出现窗口得地方的&gt;前加入下面代码
+
 ```Code
 onClick="easyhtShowMsg()"
 ```
+
 若要在显示页面的时候直接出现，请将&lt;body&gt;换成
+
 ```HTML
 <body onload="easyhtShowMsg()">
 ```
+
 必读-如何设定标题和内容
-在任意地方加载下面代码
+
+在任意地方加载下面代码.
+
 ```HTML+JS
 <script>
 document.getElementById("message-title").innerHTML="标题";
 document.getElementById("easyhtMsgBody").innerHTML="内容<br>第二行";
 </script>
 ```
+
 换行使用&lt;bt /&gt;，标题和内容都请自行修改！
 
 <script src="https://easyht.js.org/use-easyht/v0.3/use.js"></script>
