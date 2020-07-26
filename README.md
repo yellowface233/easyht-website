@@ -74,15 +74,7 @@ xxxxxxxxx
 
 # 提示框
 演示：
-<button onClick="easyhtShowMsg()">显示</button>
-
-<div id="messageForg" class="fog-wrapper">
-<div class="message-box">
-<div id="message-title"></div>
-<div id="message-body"><div id="easyhtMsgBody"></div>
-<div class="confirm-button"><div id="MsgOKB" onclick="easyhtMsgClose()"></div></div>
-</div></div></div>
-
+<p class="tip">Sorry,由于部分原因，此部分演示删除（1:演示失效）</p>.
 
 使用方法：
 
