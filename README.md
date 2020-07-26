@@ -70,7 +70,8 @@ xxxxxxxxx
 ```
 <p class="tip">这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</p>
 演示：
-<p class="tip">Sorry,由于部分原因，此部分演示删除（3:不准确）</p>
+<p class="tip">Sorry,由于部分原因，此部分演示删除（3:不准确）</p>.
+
 # 提示框
 演示：
 <button onClick="easyhtShowMsg()">显示</button>
