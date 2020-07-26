@@ -17,14 +17,14 @@ https://easyht.js.org/use-easyht/v0.2/use.js
 
 # Code标签美化
 演示：
-<font color=red>Sorry,由于部分原因，此部分演示删除（3:不准确）</font>
+<p class="tip">Sorry,由于部分原因，此部分演示删除（3:不准确）</p>
 
 调用方法：
 在HTML中使用&lt;code&gt;标签即可。 
 
 # Pre标签美化
 演示：
-<font color=red>Sorry,由于部分原因，此部分演示删除（3:不准确）</font>
+<p class="tip">Sorry,由于部分原因，此部分演示删除（3:不准确）</p>
 
 调用方法：
 在HTML终于使用&lt;pre&gt;标签即可。
@@ -68,8 +68,8 @@ xxxxxxxxx
 </div>
 </div>
 ```
-<font color=red>这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</font>
+<p class="tip">这些代码，一行也不能少，其中，主体部分最外面的DIV负责收缩！！</p>
 演示：
-<font color=red>Sorry,由于部分原因，此部分演示删除（3:不准确）</font>
+<p class="tip">Sorry,由于部分原因，此部分演示删除（3:不准确）</p>
 <script src="https://easyht.js.org/use-easyht/v0.2/use.js"></script>
 <link rel="stylesheet" href="https://easyht.js.org/use-easyht/v0.2/use.css">
